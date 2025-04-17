@@ -1,0 +1,84 @@
+body{
+    background-color: beige;
+    min-height: 800;
+    margin-bottom: 150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.heirarchybox{
+    height: 40%;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border:3px solid black;
+}
+
+table {
+    background-color: lightgrey;
+    outline: 3px solid black;
+    border-spacing: 10px;
+}
+
+th {
+    padding: 5px;
+}
+
+.comment{
+    height:auto;
+    width: 200px;
+    background-color: white;
+    outline: 3px solid black;
+}
+.navbar {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    list-style-type: none;
+}
+
+a:hover{
+    color:rgb(0, 102, 255);
+}
+
+.bottombar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    color: white;
+    overflow:hidden;
+    width:100%;
+}
+
+.employeebio{
+    height: 30%;
+    width: 30%;
+    margin: 15px;
+}
+
+.homeimg{
+    padding: 5px;
+    width: 20%;
+    height: 20%;
+}
+
+.login{
+    color: blue;
+}
+
+.bio{
+    color:black;
+}
